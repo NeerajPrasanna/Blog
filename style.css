@@ -1,0 +1,33 @@
+.row {
+
+    padding-block: 5%;
+    margin: auto;
+    display: flex;
+    height: max-content;
+
+    justify-content: center;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    z-index: -1;
+}
+
+#no
+{
+    display: none;
+    background-color: coral;
+    color: red;
+    display: flex;
+    margin: auto;
+    width: max-content;
+}
+
+
+::-webkit-scrollbar-track {
+    background: azure;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
